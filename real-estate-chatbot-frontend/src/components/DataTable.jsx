@@ -49,7 +49,7 @@ const DataTable = ({ data }) => {
         <h3 className="text-lg font-semibold">Data Table</h3>
         <button
           onClick={downloadCSV}
-          className="px-3 py-1 bg-primary text-white rounded hover:bg-primary-dark"
+          className="px-3 py-1 bg-gray-800 text-white rounded hover:bg-primary-dark"
         >
           Download CSV
         </button>
