@@ -113,5 +113,7 @@ GitHub: @HuzaifaAshfaque
 
 ---
 
-Let me know if you want this as a downloadable file or need any more customization! ​:contentReference[oaicite:0]{index=0}​
+This project is licensed under the MIT License.
+
+
 
