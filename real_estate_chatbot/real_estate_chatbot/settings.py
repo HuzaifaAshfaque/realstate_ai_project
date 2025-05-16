@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-7j18k9o1unqh-cst_5=%rs33wm^5_$%tcy_3f8rj^nk!*w$ohg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'realstate-ai-project.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
 
 
 # Application definition
