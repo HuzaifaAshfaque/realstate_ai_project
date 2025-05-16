@@ -1,9 +1,6 @@
 import axios from 'axios';
 
-console.log("process.env.REACT_APP_BACKEND_URL",process.env.REACT_APP_BACKEND_URL);
-
-const API_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000';
-console.log("API_URL",API_URL);
+const API_URL = "https://realstate-ai-project.onrender.com/api" || 'http://localhost:8000';
 const ApiService = {
   // Send query to backend
   sendQuery: async (query, file = null) => {
